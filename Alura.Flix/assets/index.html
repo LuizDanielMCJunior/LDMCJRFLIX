@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ALURAFLIX</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">LDMCJR</h1>
+        <h1 class="page-subtitle">Escolha ou adicione o seu filme favorito!</h1>
+        <div class="form-wrapper">
+            <input type="file" id="imagemFilme" name="filme" accept="image/*">
+            <p class="dica">LINK:</p>
+            <input type="text" id="linkFilme" name="filme" placeholder="Insira endereço do link">
+            <p class="dica">NOME:</p>
+            <input type="text" id="nomeFilme" name="filme" placeholder="Insira nome do filme">
+            <button onClick="adicionarFilme()">Adicionar Filme</button>
+        </div>
+    </div>
+    <div id="listaFilmes"></div>
+    <script src="script.js"></script>
+</body>
+</html>
